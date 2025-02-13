@@ -138,12 +138,12 @@ namespace ProtectedMultipleObjects
                             if (type == 1)
                             {
                                 for (int i = 0; i < compCounter; i++)
-                                    comp[i].print();
+                                    comp[i].addChange();
                             }
                             else
                             {
                                 for (int i = 0; i < lappyCounter; i++)
-                                    lappy[i].print();
+                                    lappy[i].addChange();
                             }
                             break;
                         case 3:
